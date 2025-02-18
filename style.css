@@ -1,0 +1,647 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Patua+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    /* font-family: "Rubik", sans-serif; */
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    background-color: #eeecce;
+}
+a{
+    text-decoration: none;
+}
+.main_container{
+    height: 100%;
+    width: 100%;
+    
+}
+.main_container .NavBar{
+   height: 14.7rem;
+    width: 100%;
+    background-color: #eeecce;
+    position: fixed;
+    z-index: 1;
+    
+}
+.main_container .fake{
+    height: 14.7rem;
+    width: 100%;
+}
+.main_container .container_1 {
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px  20px; 
+    background-color: #fff;
+    box-shadow: 10px 0 10px #817e7e ;
+}
+
+.main_container .container_1 .top_left{
+     position: relative;
+     display: inline-block;
+}
+.main_container .container_1 .top_left .section{
+    height: 30px;
+    width: 10rem;
+    border-radius: 5px;
+    border: 1px solid rgb(24, 19, 19);
+    margin-left: 20px;
+}
+.main_container .container_1 .top_left .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+    color: #888;
+    cursor: pointer;}
+
+    .main_container .container_1 .depts {
+        font-family: "Anton", serif;
+        display: flex;
+        align-items: center;
+        color: blue;
+        margin-left: 0; 
+    }
+
+.main_container .container_1 .depts .orange{
+    color: rgb(13, 6, 46);
+    margin-right: 7px;
+    margin-left: 10px;
+}
+.main_container .container_1 .depts .white{
+    color: rgb(0, 0, 0);
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.main_container .container_1 .depts .green{
+     color: rgb(13, 6, 46);
+     margin-left: 7px;
+     margin-right: 10px;
+}
+.main_container .container_1 .depts img {
+    height: 30px; 
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 0 2px 2px #636060;
+}
+
+
+
+
+
+.main_container .container_1 .contacts{
+    /* margin-left: 23rem; */
+    display: flex;
+    align-items: center;
+}
+.main_container .container_1 .contacts .gmail{
+    height: 30px;
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:10px ;
+    transition: calc(0.5s);
+    font-family: "Patua One", serif;
+    font-size: 16px;
+    color: #FFF;
+    background:rgb(37, 89, 152);
+}
+.main_container .container_1 .contacts .gmail i{
+    margin-left: 10px;
+}
+.main_container .container_1 .contacts .gmail:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    background: rgb(24, 56, 95);
+}
+
+.main_container  .container_1  .faceBook, .insta, .linkedIn{
+    height: 22px;
+    width: 25px;
+    border: 2px solid black;
+    color:rgb(2, 2, 2);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    margin-left: 10%;
+    transition: calc(0.5s);
+}
+.main_container .container_1 .linkedIn:hover{
+    cursor: pointer;
+   transform: scale(1.12);
+   color: #fff;
+   background-color: #342fc7;
+   border-color: #000000;
+}
+.main_container .container_1  .faceBook:hover{
+    cursor: pointer;
+    transform: scale(1.12);
+    color:#ffff;
+    background-color: #5832e1;
+    border-color:rgb(0, 0, 0) ;
+}
+.main_container .container_1  .insta:hover{
+    cursor: pointer;
+    transform: scale(1.12);
+    color: rgb(249, 249, 249);
+    background:rgb(255, 35, 72);
+    border-color: #000000;
+}
+
+
+
+
+
+.main_container .container_2{
+    height: 6rem;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow:0 5px 5px 0px hsl(0, 0%, 80%) ;
+}
+.main_container .container_2 .dateDetails{
+    height: 4rem;
+    width: 43rem;
+    background-color: rgb(207, 187, 187);
+    font-weight:700 ;
+    color: #211f1f;
+    border-radius:15px ;
+    margin-left: 15px;
+    box-shadow: 5px 5px 5px #aaa9a9;
+}
+
+.main_container .container_2 .dateDetails .text{
+    margin-top: 10px;
+    margin-left:16px ;
+}
+.main_container .container_2 .dateDetails .langauge{
+    margin-left:16px ;
+}
+.main_container .container_2 .cgec {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px;  */
+    width: 100%; 
+    max-width: 1200px; 
+    margin: auto; 
+    padding: 20px;
+}
+.main_container .container_2 .cgec .logo{
+    margin-top: 0; 
+    position: relative;
+    top: -13px; 
+    height: 5rem;
+    width: 5rem;
+    
+    border-radius: 50%;
+}
+.main_container .container_2 .cgec img {
+    width: 100%; 
+    max-width: 3000px; 
+    height: auto; 
+   
+    border-radius: 10px;
+}
+.main_container .container_2 .cgec .cegcTimes{
+    width: 25rem;
+    height: 40px;
+    margin-bottom: 25px;
+    margin-right: 10rem;
+}
+.main_container .container_2 .signIn{
+    margin-right: 30px;
+   
+}
+.main_container .container_2 .signIn .logIn{
+    display: flex;
+    font-family: "Patua One", serif;
+    margin-top: 5px;
+}
+.main_container .container_2 .signIn .logIn .subsCribe{
+    height: 30px;
+    width: 4rem;
+    background-color: rgb(13, 114, 134);
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgb(123, 161, 169);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.main_container .container_2 .signIn .logIn .sign{
+    height: 30px;
+    width: 4rem;
+    background-color: rgb(15, 28, 216);
+    color: #fff;
+    font-size: 12px;
+    box-shadow: 0 10px 10px rgb(94, 112, 214);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_container .container_2 .signIn .logIn .sign i{
+    margin-left: 4px;
+}
+.main_container .container_2 .signIn .edition{
+    font-family: "Rubik", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    /* margin-left: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_container .container_2 .signIn .edition img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 20px;
+    
+}
+.main_container .container_2 .signIn .logIn .subsCribe:hover {
+    cursor: pointer;
+    background-color: rgb(11, 67, 78);
+    box-shadow: 0 10px 10px  rgb(60, 76, 79);
+}
+.main_container .container_2 .signIn .logIn .sign:hover{
+    cursor: pointer;
+    background-color: rgb(20, 27, 126);
+    box-shadow: 0 10px 10px rgb(104, 108, 157);
+}
+
+
+
+
+
+
+.container_3{
+    height: 3rem;
+    width: 99.3%;
+    margin-left: 5px;
+    margin-top: 20px;
+    list-style-type: none;
+    background-color: #ffff;
+    border: 1px solid #969494;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
+
+.margin{
+    width: 100%;
+    height: 2px;
+    border: 1px solid #969494;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background: linear-gradient(to right, rgb(177, 14, 41),yellow,green,orange,rgb(206, 132, 144),blue);
+}
+
+
+
+.container_3 .academicDept, .container_3 .publiCation,.container_3 .sports,.container_3 .club, .container_3 .interViews
+,.container_3 .acaEvents , .container_3 .festGallery, .container_3 .comminites{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-size: 13px;   
+    font-weight: 600;
+    position: relative;
+    z-index: 0;
+    border-radius:  12px;
+    background-color: red;
+    transition: calc(0.4s);
+}
+.container_3 .academicDept:hover, .container_3 .publiCation:hover,.container_3 .sports:hover,.container_3 .club:hover, .container_3 .interViews:hover
+,.container_3 .acaEvents:hover , .container_3 .festGallery:hover, .container_3 .comminites:hover{
+    transform: scale(1.02);
+}
+.container_3 .academicDept::after, .container_3 .publiCation::after,.container_3 .sports::after,.container_3 .club::after, .container_3 .interViews::after
+,.container_3 .acaEvents::after , .container_3 .festGallery::after, .container_3 .comminites::after{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #211f1f;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+}
+
+
+.container_3 .comminites .dropDown_4 ul li a{
+    color: #021e52;
+}
+
+
+
+
+
+.container_3 li{
+    height: 30px;
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    
+ }
+
+
+ .container_3 .academicDept:hover .dropDown_1{
+     display: block;
+     position: absolute;
+     margin-top: 14rem;
+     margin-left: 10rem;
+ }
+ .container_3 .academicDept .dropDown_1{
+    display: none;
+ }
+ .container_3 .academicDept .dropDown_1 ul li{
+     display: block;
+ }
+
+ .container_3 .academicDept .dropDown_1 ul li{
+     width: 17rem;
+     height: 2rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-weight: 700;
+     font-family: "Rubik", sans-serif;
+     border-radius: 0px ;
+     background:#dededc;
+     color: #021e52;
+     box-shadow: 0 10px 10px rgb(12, 11, 11);
+     transition: calc(0.000001s);
+    
+ }
+ .container_3 .academicDept .dropDown_1 ul li:hover{
+     cursor: pointer;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background: rgb(104, 211, 217);
+     color: rgb(255, 255, 255);
+     transform: scale(1.01);
+     box-shadow:none;
+ }
+ 
+ 
+
+ 
+ .container_3 .sports .dropDown_2{
+     display: none;
+ }
+ .container_3 .sports:hover .dropDown_2{
+     display: block;
+     position: absolute;
+     margin-top: 6rem;
+     margin-left: 10rem;
+ }
+ .container_3 .sports .dropDown_2 ul li{
+     display: block;
+ }
+ .container_3 .sports .dropDown_2 ul li{
+     width: 17rem;
+     height: 2rem;
+     /* display: flex;
+     align-items: center;
+     justify-content: center; */
+     font-weight: 700;
+     font-family: "Rubik", sans-serif;
+     border-radius: 0px ;
+     background:#dededc;
+     color: #021e52;
+     box-shadow: 0 10px 10px rgb(12, 11, 11);
+     
+ }
+ .container_3 .sports .dropDown_2 ul li:hover{
+     cursor: pointer;
+     background: rgb(104, 211, 217);
+     color: rgb(255, 255, 255);
+     box-shadow:none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ 
+ 
+ .container_3 .sports .dropDown_2 .Off .subDropdown_2{
+     display: none;
+ }
+ .container_3 .sports .dropDown_2 .Off:hover .subDropdown_2{
+     display: block;
+     position: absolute;
+     margin-top: 10rem;
+     margin-left: 10rem;
+ }
+ .container_3 .sports .dropDown_2 .Off .subDropdown_2 ul li{
+     width: 17rem;
+     height: 2rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-weight: 700;
+     font-family: "Rubik", sans-serif;
+     border-radius: 0px ;
+     background:#dededc;
+     color: #021e52;
+     box-shadow: 0 10px 10px rgb(12, 11, 11);
+ }
+ .container_3 .sports .dropDown_2 .Off .subDropdown_2 ul li:hover{
+     cursor: pointer;
+     background: rgb(104, 211, 217);
+     color: rgb(255, 255, 255);
+     box-shadow:none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ 
+ .container_3 .sports .dropDown_2 .On .subDropdown_1{
+     display: none;
+ }
+ .container_3 .sports .dropDown_2 .On:hover .subDropdown_1{
+     display: block;
+     position: absolute;
+     margin-top: 12rem;
+     margin-left: 10rem;
+ }
+ .container_3 .sports .dropDown_2 .On .subDropdown_1 ul li{
+     width: 17rem;
+     height: 2rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-weight: 700;
+     font-family: "Rubik", sans-serif;
+     border-radius: 0px ;
+     background:#dededc;    
+     color: #021e52;
+     box-shadow: 0 10px 10px rgb(12, 11, 11);
+ }
+ .container_3 .sports .dropDown_2 .On .subDropdown_1 ul li:hover{
+     cursor: pointer;
+     background: rgb(104, 211, 217);
+     color: rgb(255, 255, 255);
+     box-shadow:none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ 
+ /* CLUBS */
+ 
+ .container_3 .club .dropDown_3{
+     display: none;
+ }
+ .container_3 .club:hover .dropDown_3{
+     display: block;
+     position: absolute;
+     margin-top: 16rem;
+     margin-left: 12rem;
+     
+ }
+ .container_3 .club .dropDown_3 ul li{
+     width: 17rem;
+     height: 2rem;
+     /* display: flex;
+     align-items: center;
+     justify-content: center; */
+     font-weight: 700;
+     font-family: "Rubik", sans-serif;
+     border-radius: 0px ;
+     background:#dededc;    
+     color: #021e52;
+     box-shadow: 0 10px 10px rgb(12, 11, 11);
+ }
+ .container_3  a{
+    color: #021e52;
+     text-decoration-line: none;
+ }
+
+ 
+ .container_3 .club .dropDown_3 ul li:hover{
+     cursor: pointer;
+     background: rgb(104, 211, 217);
+     color: rgb(255, 255, 255);
+     box-shadow:none;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ 
+ 
+ .container_3 .comminites .dropDown_4{
+     display: none;
+ }
+ .container_3 .comminites:hover .dropDown_4{
+     display: block;
+     position: absolute;
+     margin-top: 8rem;
+     margin-left: 12rem;
+ }
+ .container_3 .comminites .dropDown_4 ul li{
+     width: 17rem;
+     height: 2rem;
+     /* display: flex;
+     align-items: center;
+     justify-content: center; */
+     font-weight: 700;
+     font-family: "Rubik", sans-serif;
+     border-radius: 0px ;
+     background:#dededc;   
+     color: #021e52;
+     box-shadow: 0 10px 10px rgb(12, 11, 11);
+ }
+ .container_3 .comminites .dropDown_4 ul li:hover{
+     cursor: pointer;
+     background: rgb(104, 211, 217);
+     color: rgb(255, 255, 255);
+     box-shadow:none;
+     /* display: flex;
+     align-items: center;
+     justify-content: center; */
+ }
+ 
+ 
+ 
+ 
+ .container_3 .acaEvents .dropDown_5{
+     display: none;
+ }
+ .container_3 .acaEvents:hover .dropDown_5{
+     display: block;
+     position: absolute;
+     margin-top: 14rem;
+     margin-left: 13rem;
+ }
+ .container_3 .acaEvents .dropDown_5 ul li{
+     width: 17rem;
+     height: 2rem;
+     /* display: flex;
+     align-items: center;
+     justify-content: center; */
+     font-weight: 700;
+     font-family: "Rubik", sans-serif;
+     border-radius: 0px ;
+     background:#dededc;    
+     color: #021e52;
+     box-shadow: 0 10px 10px rgb(12, 11, 11);
+ }
+ .container_3 .acaEvents .dropDown_5 ul li:hover{
+     cursor: pointer;
+     background: rgb(104, 211, 217);
+     color: rgb(255, 255, 255);
+     box-shadow:none;
+     /* display: flex;
+     align-items: center;
+     justify-content: center; */
+ }
+ .container_3 .acaEvents .dropDown_5 ul li p{
+     color: #665d5d;
+     font-size: 10px;
+     margin-left: 5px;
+ }
+ .container_3 .acaEvents .dropDown_5 ul li:hover p{
+     color: #fff;
+ }
+ 
+
+
+@media (max-width: 768px) {
+    .main_container .container_2 .cgec {
+        flex-direction: column; 
+        align-items: center; 
+    }
+}
